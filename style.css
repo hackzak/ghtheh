@@ -1,0 +1,50 @@
+body{
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.truc{
+    background-color: white;
+}
+
+div.title-box h1 , p{
+    font-family: cursive;
+}
+
+div.slides{
+    display: flex;
+    flex-direction: row;
+    animation: glisse 10s infinite; 
+}
+
+img{
+    width: 400px ;
+}
+
+@keyframes glisse{
+
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(-10px);
+    }
+    33%{
+        transform: translateX(-500px);
+    }
+    66%{
+        transform: translateX(-500px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
+
+}
