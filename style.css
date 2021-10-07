@@ -14,10 +14,6 @@ div.truc{
     background-color: white;
 }
 
-div.title-box h1 , p{
-    font-family: cursive;
-}
-
 div.slides{
     display: flex;
     flex-direction: row;
