@@ -21,11 +21,11 @@ div.title-box h1 , p{
 div.slides{
     display: flex;
     flex-direction: row;
-    animation: glisse 10s infinite; 
+    animation: glisse 10s infinite ease; 
 }
 
-img{
-    width: 400px ;
+.slides{
+    opacity: 0.4 ;
 }
 
 @keyframes glisse{
@@ -34,7 +34,7 @@ img{
         transform: translateX(0);
     }
     10%{
-        transform: translateX(-10px);
+        transform: translateX(0);
     }
     33%{
         transform: translateX(-500px);
