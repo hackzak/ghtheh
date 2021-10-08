@@ -5,7 +5,7 @@ body{
 
 div.image{
     position: relative;
-    top: -300px;
+    top: -400px;
 }
 
 header{
@@ -22,25 +22,25 @@ div.truc{
     padding: 50px;
 }
 header h1{
-    font-size:80;
+    font-size:70;
 }
 
 header p{
-    font-size:25px;
+    font-size:40px;
 
 }
 
 div.slides{
     display: flex;
     flex-direction: row;
-    animation: glisse 10s infinite ease; 
+    animation: glisse 7s infinite ease; 
 }
 
 .slides{
     opacity: 0.4 ;
 }
 img{
-    width: 1000px;
+    width: 1500px;
 }
 
 @keyframes glisse{
@@ -49,17 +49,43 @@ img{
         transform: translateX(0);
     }
     10%{
-        transform: translateX(0);
+        transform: translateX(-3000px);
     }
     33%{
-        transform: translateX(-500px);
+        transform: translateX(-3000px);
     }
     66%{
-        transform: translateX(-500px);
+        transform: translateX(-3000px);
     }
     100%{
         transform: translateX(0);
-    }
-    
+    }    
 
+}
+
+nav.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav-items{
+    padding: 50px;
+    position: relative;
+    top: -350;
+}
+
+.burger{
+    background: url(bur.jpg);
+}
+
+.pizza{
+    background: url(img.jpg);
+}
+
+.salade{
+    background: url(salade.jpg);
+}
+
+.boissons{
+    background: url(img.jpg);
 }
