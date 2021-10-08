@@ -3,6 +3,11 @@ body{
     margin: 0 auto;
 }
 
+div.image{
+    position: relative;
+    top: -300px;
+}
+
 header{
     display: flex;
     flex-direction: column;
@@ -13,7 +18,7 @@ header{
 div.truc{
     background-color: white;
     position: relative;
-    top: 250px;
+    top: 100px;
     padding: 50px;
 }
 header h1{
@@ -35,7 +40,7 @@ div.slides{
     opacity: 0.4 ;
 }
 img{
-    width: 900px;
+    width: 1000px;
 }
 
 @keyframes glisse{
