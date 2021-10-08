@@ -22,7 +22,7 @@ div.truc{
     padding: 50px;
 }
 header h1{
-    font-size:70;
+    font-size:95;
 }
 
 header p{
@@ -73,12 +73,25 @@ nav.menu ul li{
     background: url(bur.jpg);
 }
 
+.nav-items{
+    padding: 50px;
+}
+
+.nav-items{
+    position: relative;
+    top: -450px;
+}
+
 .pizza{
     background: url(img.jpg);
 }
 
 .salade{
-    background: url(salade.jpg);
+    background: url(salade.jpg)15%;
+}
+
+.boissons{
+    background: url(img.jpg);
 }
 
 .boissons{
