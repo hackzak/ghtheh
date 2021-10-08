@@ -68,12 +68,6 @@ nav.menu ul li{
     display: inline-block;
 }
 
-.nav-items{
-    padding: 50px;
-    position: relative;
-    top: -350;
-}
-
 
 .burger{
     background: url(bur.jpg);
