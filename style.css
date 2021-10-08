@@ -1,5 +1,5 @@
 body{
-    background-color: yellow;
+    background-color: rgb(0, 0, 0);
     margin: 0 auto;
 }
 
@@ -73,6 +73,7 @@ nav.menu ul li{
     position: relative;
     top: -350;
 }
+
 
 .burger{
     background: url(bur.jpg);
