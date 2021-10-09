@@ -68,32 +68,36 @@ nav.menu ul li{
     display: inline-block;
 }
 
-
-.burger{
-    background: url(bur.jpg);
-}
-
 .nav-items{
     padding: 50px;
+    display: flex;
 }
 
 .nav-items{
     position: relative;
     top: -450px;
+    width: 220px;
+    height: 180px;
 }
 
-.pizza{
-    background: url(img.jpg);
+nav.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
 }
 
 .salade{
-    background: url(salade.jpg)15%;
+    background: url(salade.jpg)10%;
+}
+
+.burger{
+    background: url(burbur.jpg)10%;
 }
 
 .boissons{
-    background: url(img.jpg);
+    background: url(boissons.jpg)10%;
 }
 
-.boissons{
-    background: url(img.jpg);
+.pizza{
+    background: url(pizza.jpg)10%;
 }
