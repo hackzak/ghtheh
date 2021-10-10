@@ -156,3 +156,14 @@ nav.menu ul li a{
 section{
     padding: 500px;
 }
+
+.item{
+    width: 400px;
+    height: 67px;
+    position: relative;
+    top: -500px;
+}
+
+section img{
+    width: 100px;
+}
