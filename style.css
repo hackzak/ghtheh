@@ -32,6 +32,7 @@ header h1{
     text-align: center;
     position: relative;
     top: -10px;
+    opacity: 2.5;
 }
 
 header p{
@@ -124,17 +125,34 @@ nav.menu ul li a{
 }
 
 .salade{
-    background: url(salade.jpg);
+    background: url(salade.jpg)100%;
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 
 .burger{
-    background: url(burbur.jpg);
+    background: url(burbur.jpg)100%;
+    background-repeat:no-repeat ;
+    background-size: no-repeat;
 }
 
 .boissons{
-    background: url(boissons.jpg);
+    background: url(boissons.jpg)100%;
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 .pizza{
-    background: url(pizza.jpg);
+    background: url(pizza.jpg)100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item{
+    background-color: white;
+    margin: 20px;
+}
+
+section{
+    padding: 500px;
 }
