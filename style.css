@@ -167,3 +167,46 @@ section{
 section img{
     width: 100px;
 }
+
+.popo{
+    position: relative;
+    top: -74%;
+}
+
+
+
+
+
+
+div.slides{
+    display: flex;
+    flex-direction: row;
+    animation: glisse 7s infinite ease; 
+}
+
+.popo{
+    opacity: 0.5 ;
+}
+.popo{
+    width: 1500px;
+}
+
+@keyframes glisse{
+
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(-3000px);
+    }
+    33%{
+        transform: translateX(-3000px);
+    }
+    66%{
+        transform: translateX(-3000px);
+    }
+    100%{
+        transform: translateX(0);
+    }    
+
+}
