@@ -210,3 +210,17 @@ div.slides{
     }    
 
 }
+
+div.menu1{
+    background-color: white;
+    margin: 20px;
+    position: relative;
+    top: -1690;
+    padding: 5px;
+    margin: 10px;
+}
+
+.menu1{
+    display: flex;
+
+}
