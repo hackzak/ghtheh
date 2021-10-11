@@ -1,3 +1,5 @@
+/*Code en css*/
+
 *{
     margin: 0;
     padding: 0;
@@ -32,7 +34,6 @@ header h1{
     text-align: center;
     position: relative;
     top: -10px;
-    opacity: 2.5;
 }
 
 header p{
@@ -222,9 +223,13 @@ div.menu1{
 
 .menu1{
     display: flex;
-
 }
 
 .menu1:hover{
+    transition: 1.5s all;
+}
+
+.menu-pizza:hover{
+    box-shadow: -13px 13px 2px 1px rgba(0, 0, 0, .4);
     transition: 0.5s all;
 }
