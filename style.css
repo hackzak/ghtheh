@@ -224,3 +224,7 @@ div.menu1{
     display: flex;
 
 }
+
+.menu1:hover{
+    transition: 0.5s all;
+}
