@@ -245,7 +245,7 @@ img.menu-burbur{
 }
 
 div.menu-burger{
-    margin: 10px;
+    margin: 20px;
     background-color: white;
     position: relative;
     top: -2700px;
@@ -259,4 +259,35 @@ div.menu-burger{
 .menu-burgerr:hover{
     transition: 0.3s all;
     box-shadow: -8px 8px 2px 1px rgba(0, 0, 0, .2);
+}
+
+div.menu-salade{
+    margin: 20px;
+    background-color: white;
+    display: flex;
+}
+
+div.menu-salade{
+    margin: 20px;
+    background-color: white;
+}
+
+img.menu--salade{
+    position: relative;
+    top: -2970px;
+    opacity: 0.5;
+}
+
+.menu---salade:hover{
+    transition: 0.3s all;
+    box-shadow: -8px 8px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.menu-salade{
+    position: relative;
+    top: -4000px;
+}
+
+.menu---salade:hover{
+    transform: scale(1.3);
 }
