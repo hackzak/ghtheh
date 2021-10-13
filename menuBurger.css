@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+
+section.col{
+    background-color: white;
+    margin: 30px;
+}
+
+nav.cool-nav{
+    position: relative;
+    top: -400px;
+}
